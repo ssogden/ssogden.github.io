@@ -68,7 +68,7 @@ social:
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: 'G-NZ5V7DM8F5'          # Fill with your Google Analytics ID
+  id: ''          # Fill with your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -95,7 +95,7 @@ theme_mode:   dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://avatars.githubusercontent.com/u/1322205?s=400&u=5b4f2219006577dc0426007fe5a02391c4899677&v=4
+avatar: 
 
 # boolean type, the global switch for ToC in posts.
 toc: true
