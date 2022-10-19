@@ -1,7 +1,7 @@
 ## Credits
 
-Created by with 💛
+Created with 💛
 
 ► Discord <>
 
-► GitHub <>
+► GitHub <https://github.io/ssogden>
