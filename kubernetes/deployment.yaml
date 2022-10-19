@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: technotim-docs
+  name: minilabwork-docs
   namespace: default
 spec:
   selector:
     matchLabels:
-      app: technotim-docs
+      app: minilabwork-docs
   replicas: 3
   progressDeadlineSeconds: 600
   revisionHistoryLimit: 3
@@ -18,12 +18,12 @@ spec:
   template:
     metadata:
       labels:
-        app: technotim-docs
+        app: minilabwork-docs
       annotations:
         deploy-date: "deploy-date-value"
     spec:
       containers:
-      - name: technotim-docs
+      - name: minilabwork-docs
         image: "registry-value:latest"
         resources:
           requests:
@@ -40,7 +40,7 @@ spec:
             - podAffinityTerm:
                 labelSelector:
                   matchLabels:
-                    name: technotim-docs
+                    name: minilabwork-docs
                 topologyKey: kubernetes.io/hostname
               weight: 100
       imagePullSecrets: 

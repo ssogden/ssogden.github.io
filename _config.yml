@@ -21,12 +21,12 @@ timezone: Europe/London
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: ssogden documentation                          # the main title
+title: minilab docs                          # the main title
 
 tagline: documentation for all your copy pasta needs!   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  simple documentation
+  simple documentation using Jekyll and Chripy
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://docs.minilabwork.com'
@@ -79,7 +79,7 @@ theme_mode:   dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 
+avatar: https://avatars.githubusercontent.com/u/20615741?v=4
 
 # boolean type, the global switch for ToC in posts.
 toc: true
