@@ -16,47 +16,59 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Europe/London
+timezone: America/Chicago
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Homelab Docs                          # the main title
+title: Techno Tim Documentation                          # the main title
 
-tagline: Docs for my homelab   # it will display as the sub-title
+tagline: Video documentation for all your copy pasta needs!   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Docs for my homelab
+  Documentation for Techno Tim YouTube videos for all your copy pasta needs!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://docs.minilabwork.com'
 
 github:
-  username: ssogden             # change to your github username
-
+  username: timothystewart6             # change to your github username
 twitter:
-  username: SamOgden90           # change to your twitter username
-
+  username: technotimlive            # change to your twitter username
+patreon:
+  username: technotim
+twitch:
+  username: technotim
+instagram:
+  username: techno.tim
+facebook:
+  username: TechnoTimLive
+discord:
+  invitelink: akMB4HJpvF
+youtube:
+  channelid: UCOk-gHyjcWZNj3Br4oxwh0A
+tiktok:
+  username: '@technotim'
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: ssogden
-  email: noreply@minilabwork.com             # change to your email address
+  name: Techno Tim
+  # email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/ssogden       # change to your github homepage
-    # - https://twitter.com/username      # change to your twitter homepage
+    - https://l.technotim.live/twitter      # change to your twitter homepage
+    # - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+# google_site_verification: google_meta_tag_verification # change to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: 'G-NZ5V7DM8F5'          # Fill with your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -73,7 +85,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode:   dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -83,7 +95,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/1322205?s=400&u=5b4f2219006577dc0426007fe5a02391c4899677&v=4
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -114,9 +126,6 @@ assets:
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
-
-pwa:
-  enabled: true   # the option for PWA feature
 
 paginate: 10
 
@@ -185,11 +194,15 @@ exclude:
   - '*.gemspec'
   - tools
   - README.md
-  - CHANGELOG.md
   - LICENSE
   - gulpfile.js
   - node_modules
   - package*.json
+  - archive_old
+  - template
+  - reference_files
+  - kubernetes
+  - Dockerfile
 
 jekyll-archives:
   enabled: [categories, tags]
