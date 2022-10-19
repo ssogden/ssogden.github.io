@@ -13,7 +13,7 @@ Set up a reverse proxy using Traefik, Portainer, and use that to get wildcard ce
 See [this post](https://docs.minilabwork.com/posts/docker-compose-install/) on how to install `docker` and `docker-compose`
 
 CloudFlare API Token required
-```yml
+```
 All zones - Zone:Read, DNS:Edit
 ```
 
@@ -25,7 +25,7 @@ echo $(htpasswd -nB user) | sed -e s/\\$/\\$\\$/g
 
 
 Create local DNS Records
-```yml
+```
 A   portainer.local.example.com   ->  192.168.x.x
 CNAME   traefik-dashboard.local.example.com   ->  portainer.local.example.com
 ```
