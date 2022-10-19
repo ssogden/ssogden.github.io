@@ -10,7 +10,25 @@ Set up a reverse proxy using Traefik, Portainer, and use that to get wildcard ce
 
 ## Docker Setup
 
-See [this post](https://docs.technotim.live/posts/docker-compose-install/) on how to install `docker` and `docker-compose`
+See [this post](https://docs.minilabwork.com/posts/docker-compose-install/) on how to install `docker` and `docker-compose`
+
+CloudFlare API Token required
+```yml
+All zones - Zone:Read, DNS:Edit
+```
+
+Required to create basic auth password for traefik container
+```bash
+apt install apache2-utils
+echo $(htpasswd -nB user) | sed -e s/\\$/\\$\\$/g
+```
+
+
+Create local DNS Records
+```yml
+A   portainer.local.example.com   ->  192.168.x.x
+CNAME   traefik-dashboard.local.example.com   ->  portainer.local.example.com
+```
 
 ## Traefik
 
