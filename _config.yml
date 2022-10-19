@@ -32,23 +32,7 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://docs.minilabwork.com'
 
 github:
-  username: timothystewart6             # change to your github username
-twitter:
-  username: technotimlive            # change to your twitter username
-patreon:
-  username: technotim
-twitch:
-  username: technotim
-instagram:
-  username: techno.tim
-facebook:
-  username: TechnoTimLive
-discord:
-  invitelink: akMB4HJpvF
-youtube:
-  channelid: UCOk-gHyjcWZNj3Br4oxwh0A
-tiktok:
-  username: '@technotim'
+  username: ssogden             # change to your github username
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -56,8 +40,8 @@ social:
   # email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://l.technotim.live/twitter      # change to your twitter homepage
-    # - https://github.com/username       # change to your github homepage
+    # - https://l.technotim.live/twitter      # change to your twitter homepage
+    - https://github.com/ssogden       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
