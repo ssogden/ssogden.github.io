@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   Docs for my homelab
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'docs.minilabwork.com'
+url: 'https://gitlab.io/ssogden'
 
 github:
   username: ssogden             # change to your github username
