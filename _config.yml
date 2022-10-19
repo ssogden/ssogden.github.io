@@ -16,17 +16,17 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: America/Chicago
+timezone: Europe/London
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Techno Tim Documentation                          # the main title
+title: ssogden documentation                          # the main title
 
-tagline: Video documentation for all your copy pasta needs!   # it will display as the sub-title
+tagline: documentation for all your copy pasta needs!   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Documentation for Techno Tim YouTube videos for all your copy pasta needs!
+  simple documentation
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://docs.minilabwork.com'
