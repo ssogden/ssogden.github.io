@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Encrypt Sensitive Information - Encryption with Mozilla SOPS and AGE"
+title: "Encryption with Mozilla SOPS and AGE"
 date: 2022-10-29 00:00:00 -0000
 categories: homelab
 tags: git kubernetes secrets security sops age
